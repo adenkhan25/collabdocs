@@ -77,7 +77,7 @@ export default function LandingPage() {
           transition={{ duration: 0.4 }}
         >
           <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700 dark:bg-brand-500/10 dark:text-brand-300">
-            <FileText className="h-3 w-3" /> Final Year Project — Real-Time Document Editor
+            <FileText className="h-3 w-3" />   — Real-Time Document Editor.
           </span>
           <h1 className="mt-6 font-display text-4xl font-bold leading-tight text-slate-900 dark:text-white sm:text-5xl">
             Write together, in real time.

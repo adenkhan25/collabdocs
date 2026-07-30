@@ -2,7 +2,7 @@
   "name": "collabdocs",
   "version": "1.0.0",
   "private": true,
-  "description": "Real-Time Collaborative Document Editor - Full Stack Final Year Project",
+  "description": "Real-Time Collaborative Document Editor - Full Stack learning experience project ",
   "workspaces": [
     "backend",
     "frontend"
