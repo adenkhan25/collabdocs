@@ -1,0 +1,25 @@
+{
+  "name": "collabdocs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-Time Collaborative Document Editor - Full Stack Final Year Project",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/setup-env.js",
+    "dev": "concurrently -n BACKEND,FRONTEND -c blue,green \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "start": "concurrently -n BACKEND,FRONTEND -c blue,green \"npm run start --workspace=backend\" \"npm run start --workspace=frontend\"",
+    "seed": "npm run seed --workspace=backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

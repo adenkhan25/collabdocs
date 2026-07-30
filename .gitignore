@@ -1,0 +1,16 @@
+node_modules/
+.env
+*.log
+npm-debug.log*
+
+# Frontend
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Backend
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+.DS_Store
+Thumbs.db
