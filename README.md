@@ -198,9 +198,6 @@ settings, comments, etc.) still goes through the normal REST API.
 ---
 
 ## License
-
-<<<<<<< HEAD
-Built for educational purposes as a learning experience project.
 =======
 Built for educational purposes as a  learning experience project.
->>>>>>> 3d38f23d1cc4dd9cff51420ccb0e068945bd631f
+
