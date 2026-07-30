@@ -1,6 +1,6 @@
 # CollabDocs — Real-Time Collaborative Document Editor
 
-A full-stack, Google-Docs-style collaborative document editor built as a Final Year University
+A full-stack, Google-Docs-style collaborative document editor built as a  learning experience
 Project. Teams can write, format, and edit documents together in real time, with live cursors,
 presence, threaded comments, version history, link-based sharing with roles, and export to
 PDF / DOCX / HTML.
@@ -199,4 +199,4 @@ settings, comments, etc.) still goes through the normal REST API.
 
 ## License
 
-Built for educational purposes as a Final Year University Project.
+Built for educational purposes as a  learning experience project.
